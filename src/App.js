@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
-import {Home} from './components/Home'
+import React from "react";
+import Counter from "./components/counter.js"; // Adjusted path
+
 function App() {
   return (
-    <div className="container">
-        <Home/>
+    <div>
+      <Counter />
     </div>
   );
 }
 
 export default App;
+
